@@ -1,8 +1,6 @@
-def position_taken(board, index)
+def position_taken(board,index)
   
-  if board[index] == " " || ""
-   puts false
-  else board == nil
+  if board[index] == " " or "" or nil
    puts false
  end
   
