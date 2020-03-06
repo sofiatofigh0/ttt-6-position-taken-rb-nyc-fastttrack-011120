@@ -1,4 +1,3 @@
-board=[" "," "," "," "," "," "," "," "," "]
 
 def position_taken?(board,index)
   
@@ -6,7 +5,6 @@ def position_taken?(board,index)
    puts false
   else 
    puts true
- end
   
 end
 
